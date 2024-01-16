@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gallery</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <!-- bootstrap icon cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+<style>	
+    body{
+        margin-left: 350px;
+          background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("img1.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'poppins',sans-serif;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 40px 20px 0 20px;
+    }
+    .container .heading{
+        width: 50%;
+        padding-bottom: 50px;
+    }
+    .container .heading:hover{
+         transform: scale(1.05);
+    }
+    .container .heading h3{
+        font-size: 3em;
+        font-weight: bolder;
+        padding-bottom: 10px;
+        border-bottom: 3px solid #fff;
+    }
+    .container .heading span{
+        font-weight: 100;
+    }
+    .container .box{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container .box .dream{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-right: 20px;
+    }
+    .container .box .dream img{
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    .container .dream .text:hover{
+     /*   background:#303ef7;*/
+        color: #fff;
+        transform: scale(1.05);
+    }
+    .container .btn{
+        margin: 40px 0 70px 0;
+        background-color: #222;
+        padding: 15px 40px;
+        border-radius: 5px;
+    }
+    .container .btn a{
+        color: #fff;
+        font-size: 1.2em;
+        text-decoration: none;
+        font-weight: bolder;
+        letter-spacing: 3px;
+    }
+    @media only screen and(max-width: 769px){
+    }
+</style>
+</body>
+<div class="container">
+    <div class="col-md-8">
+    <div class="heading">
+        <h3 style="color: #fff;">Photo<span>Gallery</span></h3>
+    </div>
+    <div class="box">
+        <div class="dream">
+            <img class="text" src="img9.jpeg">
+             <img class="text" src="img7.jpeg">
+        </div>
+        <div class="dream">
+            <img class="text" src="img5.jpeg">
+           <img class="text" src="img9.jpeg">
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
